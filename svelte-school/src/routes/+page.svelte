@@ -1,6 +1,6 @@
 <script lang="ts">
     import Todo from "../lib/Todo.svelte";
-    let todos = ["Rydde", "hallo"]
+    let todos = ["Rydde", "Vaske opp"]
     let add_item: string = "";
     function add(x: string) {
         todos.push(x)
